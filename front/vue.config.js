@@ -1,0 +1,17 @@
+module.exports = {
+    pages: {
+        index: {
+            // page 的入口
+            entry: 'src/main.js',
+        },
+    },
+    // 关闭语法检查
+    lintOnSave: false,
+    // configureWebpack: {
+    //     resolve: {
+    //       alias: {
+    //         '@': path.resolve(__dirname, 'src')
+    //       }
+    //     }
+    //   }    
+}
